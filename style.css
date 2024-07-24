@@ -1,0 +1,54 @@
+body {
+    background-color: #000; /* Use hex color code for better readability */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: cell;
+}
+
+header {
+    background: linear-gradient(rgb(117, 117, 117), rgb(51, 51, 51));
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+button {
+    align-self: center;
+    color: #fff;
+    cursor: cell;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 5px 1px; /* Simplified padding syntax */
+    margin: auto;
+    width: 120px;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0 #fff; /* Simplified box-shadow syntax */
+    transition: width 0.3s ease, padding 0.5s ease, border 0.3s ease, background-color 0.1s ease, box-shadow 0.5s ease;
+}
+
+button:hover {
+    background-color: blue;
+    padding: 10px 1px; /* Adjusted padding for hover state */
+    width: 130px;
+    box-shadow: 0 0 20px 0 gray;
+}
+
+button:active {
+    background-color: rgb(49, 49, 255);
+}
+
+.div_best {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
